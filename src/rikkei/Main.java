@@ -46,10 +46,10 @@ public class Main {
 //                   Tính tổng và in ra các phần tử có giá trị lẻ trong mảng
                     int sum3 = 0;
                     System.out.println("Các phần tử có chỉ số lẻ trong mảng là: ");
-                    for (int i = 0; i <= n; i++) {
-                        if (i % 2 != 0) {
-                            System.out.print(i + " ");
-                            sum3 += i;
+                    for (int i = 0; i < n; i++) {
+                        if (arr[i] % 2 != 0) {
+                            System.out.print(arr[i] + " ");
+                            sum3 += arr[i];
                         }
                     }
                     System.out.println(" --> Tổng các phần tử có chỉ số lẻ trong mảng là: " + sum3);
